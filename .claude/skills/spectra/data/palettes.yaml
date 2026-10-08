@@ -1,0 +1,185 @@
+# Spectra palettes — machine-readable mirror of references/palettes.md
+# Tokens map to SPECTRA.md :root variables (accent2 = --accent-2).
+version: 1
+palettes:
+  # Minimal & Modern
+  - family: minimal-modern
+    name: Paper & Ink
+    best_for: [Swiss / International, Minimalism, Editorial]
+    tokens: {bg: "#FAFAF8", surface: "#FFFFFF", ink: "#111111", muted: "#6B7280", accent: "#E03E2D", accent2: "#111111", border: "#E5E5E0"}
+  - family: minimal-modern
+    name: Cool Mono
+    best_for: [Functionalism, Swiss / International, Data-Dense]
+    tokens: {bg: "#F4F6F8", surface: "#FFFFFF", ink: "#101418", muted: "#5B6470", accent: "#2563EB", accent2: "#0EA5E9", border: "#DDE3EA"}
+  - family: minimal-modern
+    name: Warm Sand
+    best_for: [Minimalism, Organic Modernism, Bauhaus]
+    tokens: {bg: "#F7F2EA", surface: "#FFFFFF", ink: "#1C1917", muted: "#78716C", accent: "#B45309", accent2: "#1C1917", border: "#E7DFD3"}
+
+  # Editorial & Typography
+  - family: editorial-typography
+    name: Newsprint
+    best_for: [Newspaper, Magazine, Typography-First]
+    tokens: {bg: "#FBFAF7", surface: "#FFFFFF", ink: "#16130E", muted: "#6E675C", accent: "#B91C1C", accent2: "#16130E", border: "#E3DED4"}
+  - family: editorial-typography
+    name: Fashion Contrast
+    best_for: [Fashion Editorial, Editorial, Art Direction]
+    tokens: {bg: "#0E0D0B", surface: "#1A1815", ink: "#F5F1E8", muted: "#A39E93", accent: "#D4AF37", accent2: "#F5F1E8", border: "#2E2A24"}
+  - family: editorial-typography
+    name: Gallery White
+    best_for: [Editorial, Poster / Swiss Poster, Magazine]
+    tokens: {bg: "#FFFFFF", surface: "#F5F4F0", ink: "#111111", muted: "#737373", accent: "#4F46E5", accent2: "#111111", border: "#E5E5E5"}
+
+  # Tactile & Physical
+  - family: tactile-physical
+    name: Leather & Brass
+    best_for: [Skeuomorphism, Industrial UI]
+    tokens: {bg: "#141210", surface: "#241D16", ink: "#F3EAD8", muted: "#A89880", accent: "#C9A227", accent2: "#8C6A1F", border: "#3A3129"}
+  - family: tactile-physical
+    name: Soft Clay
+    best_for: [Claymorphism, Soft UI]
+    tokens: {bg: "#FFF7F0", surface: "#FFFFFF", ink: "#3F3A36", muted: "#9C8F86", accent: "#F472B6", accent2: "#8B5CF6", border: "#F3E2D3"}
+  - family: tactile-physical
+    name: Paper Craft
+    best_for: [Paper UI, Neumorphism]
+    tokens: {bg: "#F2EDE3", surface: "#E9E2D3", ink: "#2E2A24", muted: "#857768", accent: "#2F6B4F", accent2: "#B45309", border: "#D8CFBD"}
+
+  # Glass & Translucent
+  - family: glass-translucent
+    name: Aurora Night
+    best_for: [Glassmorphism, AI Futurism]
+    tokens: {bg: "#0A0A12", surface: "#12121C", ink: "#F2F4FF", muted: "#8B90A7", accent: "#00F0FF", accent2: "#FF2BD6", border: "#2A2A3D"}
+  - family: glass-translucent
+    name: Frosted Day
+    best_for: [Glassmorphism, Spatial UI]
+    tokens: {bg: "#EEF2F7", surface: "#FFFFFF", ink: "#16202E", muted: "#5D6B7E", accent: "#4F46E5", accent2: "#06B6D4", border: "#D9E1EC"}
+  - family: glass-translucent
+    name: Liquid Chrome
+    best_for: [Liquid Glass, Spatial UI]
+    tokens: {bg: "#101014", surface: "#1B1B22", ink: "#F4F4F6", muted: "#9BA0AE", accent: "#E8E8EC", accent2: "#7C5CFF", border: "#33333D"}
+
+  # Experimental & Raw
+  - family: experimental-raw
+    name: Brutal Paper
+    best_for: [Brutalism, Deconstructed]
+    tokens: {bg: "#FFFFFF", surface: "#F5F5F5", ink: "#000000", muted: "#525252", accent: "#FF4D00", accent2: "#0000EE", border: "#000000"}
+  - family: experimental-raw
+    name: Acid Pastel
+    best_for: [Neo-Brutalism, Maximalism]
+    tokens: {bg: "#FFF6E9", surface: "#FFFFFF", ink: "#111111", muted: "#6B6B6B", accent: "#7C5CFF", accent2: "#00C2A8", border: "#111111"}
+  - family: experimental-raw
+    name: Xerox
+    best_for: [Anti-Design, Chaotic UI, Organic Brutalism]
+    tokens: {bg: "#EDEAE2", surface: "#E0DCD2", ink: "#1A1815", muted: "#6E6A60", accent: "#3D5A38", accent2: "#B91C1C", border: "#1A1815"}
+
+  # Retro & Nostalgic
+  - family: retro-nostalgic
+    name: Vapor Sunset
+    best_for: [Vaporwave, Y2K]
+    tokens: {bg: "#12081F", surface: "#1E0F33", ink: "#FDF4FF", muted: "#A78BCA", accent: "#FF71CE", accent2: "#01CDFE", border: "#3B1F5E"}
+  - family: retro-nostalgic
+    name: Terminal Phosphor
+    best_for: [Pixel Art, Web 1.0, Windows Classic]
+    tokens: {bg: "#0B0F0A", surface: "#131A12", ink: "#D7FFD7", muted: "#6B8F6B", accent: "#33FF33", accent2: "#FFB000", border: "#2A332A"}
+  - family: retro-nostalgic
+    name: Aero Gloss
+    best_for: [Frutiger Aero, Web 2.0, Retro Futurism]
+    tokens: {bg: "#EAF6FB", surface: "#FFFFFF", ink: "#0F2A3D", muted: "#5B7A90", accent: "#0096DC", accent2: "#7ED321", border: "#C4E2F0"}
+
+  # Futuristic & Technology
+  - family: futuristic-tech
+    name: Cyber Grid
+    best_for: [Cyberpunk, Digital Grid]
+    tokens: {bg: "#0A0A12", surface: "#13131F", ink: "#EDEFFF", muted: "#7C84A0", accent: "#00F0FF", accent2: "#FF2BD6", border: "#26263A"}
+  - family: futuristic-tech
+    name: Tactical HUD
+    best_for: [HUD, Sci-Fi, Industrial Future]
+    tokens: {bg: "#0C1110", surface: "#141C1A", ink: "#E6F2EC", muted: "#6E8579", accent: "#34D399", accent2: "#F59E0B", border: "#24302B"}
+  - family: futuristic-tech
+    name: Lab Mono
+    best_for: [Terminal / CLI, Cyber Minimalism]
+    tokens: {bg: "#000000", surface: "#0D0D0D", ink: "#E8E8E8", muted: "#8A8A8A", accent: "#FFB000", accent2: "#E8E8E8", border: "#2A2A2A"}
+
+  # Playful & Expressive
+  - family: playful-expressive
+    name: Memphis Pop
+    best_for: [Memphis, Sticker UI]
+    tokens: {bg: "#FFF9F0", surface: "#FFFFFF", ink: "#1F1B24", muted: "#7A7484", accent: "#FF5C8A", accent2: "#00B8A9", border: "#1F1B24"}
+  - family: playful-expressive
+    name: Comic Halftone
+    best_for: [Comic UI, Pop Art]
+    tokens: {bg: "#FFFDF5", surface: "#FFFFFF", ink: "#141414", muted: "#6B6B6B", accent: "#E63B2E", accent2: "#1E56C8", border: "#141414"}
+  - family: playful-expressive
+    name: Doodle Notebook
+    best_for: [Hand-Drawn, Doodle, Collage]
+    tokens: {bg: "#FCFBF4", surface: "#FFFFFF", ink: "#2B2620", muted: "#8A8177", accent: "#2F6B4F", accent2: "#D97706", border: "#2B2620"}
+
+  # Organic & Natural
+  - family: organic-natural
+    name: Forest Floor
+    best_for: [Organic UI, Biophilic]
+    tokens: {bg: "#F6F4EC", surface: "#FFFFFF", ink: "#1E2A20", muted: "#6B7A6D", accent: "#2F6B4F", accent2: "#8A9A5B", border: "#DDE3D5"}
+  - family: organic-natural
+    name: Clay Warmth
+    best_for: [Earthy Minimalism, Organic Modernism]
+    tokens: {bg: "#FAF5EE", surface: "#FFFFFF", ink: "#292019", muted: "#8A7A6B", accent: "#C05621", accent2: "#2F6B4F", border: "#E5DACA"}
+  - family: organic-natural
+    name: Wabi Stone
+    best_for: [Wabi-Sabi, Japanese Minimalism, Botanical]
+    tokens: {bg: "#F4F2ED", surface: "#EAE7DE", ink: "#2E2C28", muted: "#857F74", accent: "#7A2E2E", accent2: "#2E2C28", border: "#D5D0C4"}
+
+  # Luxury & Premium
+  - family: luxury-premium
+    name: Noir & Gold
+    best_for: [Dark Luxury, Art Deco]
+    tokens: {bg: "#0D0C0A", surface: "#171412", ink: "#F3EAD8", muted: "#A89E8A", accent: "#C9A227", accent2: "#F3EAD8", border: "#33291C"}
+  - family: luxury-premium
+    name: Marble Serif
+    best_for: [Luxury Minimalism, Neo-Classical, Elegant Editorial]
+    tokens: {bg: "#FBFAF8", surface: "#FFFFFF", ink: "#1A1815", muted: "#7C746A", accent: "#1A1815", accent2: "#8C7B4B", border: "#E6E1D8"}
+  - family: luxury-premium
+    name: Velvet Plum
+    best_for: [High Fashion, Premium Monochrome]
+    tokens: {bg: "#150F16", surface: "#221822", ink: "#F7EDF3", muted: "#A68FA3", accent: "#C08497", accent2: "#F7EDF3", border: "#3A2A3A"}
+
+  # Industrial & Technical
+  - family: industrial-technical
+    name: Blueprint
+    best_for: [Blueprint, Engineering]
+    tokens: {bg: "#0F2A52", surface: "#14356A", ink: "#EAF1FF", muted: "#8FA3C7", accent: "#F5A623", accent2: "#EAF1FF", border: "#2A4A82"}
+  - family: industrial-technical
+    name: Hazard Utility
+    best_for: [Industrial, Control Panel, Utility UI]
+    tokens: {bg: "#F2F2F0", surface: "#FFFFFF", ink: "#1C1C1C", muted: "#6B6B6B", accent: "#EAB308", accent2: "#1C1C1C", border: "#1C1C1C"}
+  - family: industrial-technical
+    name: Carbon Data
+    best_for: [Data-Dense, Technical, Scientific]
+    tokens: {bg: "#101216", surface: "#1A1E24", ink: "#E8EBEF", muted: "#8B94A1", accent: "#38BDF8", accent2: "#A78BFA", border: "#2A3038"}
+
+  # Cultural & Historical
+  - family: cultural-historical
+    name: Ukiyo Wave
+    best_for: [Ukiyo-e Inspired, Art Nouveau]
+    tokens: {bg: "#F7F4EC", surface: "#FFFFFF", ink: "#22333B", muted: "#75808A", accent: "#1D6F8C", accent2: "#C14436", border: "#DCD5C2"}
+  - family: cultural-historical
+    name: Construct Red
+    best_for: [Constructivism, Postmodernism]
+    tokens: {bg: "#F4F1EA", surface: "#FFFFFF", ink: "#111111", muted: "#6B6B6B", accent: "#C8102E", accent2: "#111111", border: "#111111"}
+  - family: cultural-historical
+    name: Mid-Century Warm
+    best_for: [Mid-Century Modern, Bauhaus]
+    tokens: {bg: "#FAF3E7", surface: "#FFFFFF", ink: "#2A2118", muted: "#8A7A64", accent: "#D95D39", accent2: "#2F5D50", border: "#E0D3BE"}
+
+  # Gaming & Interactive
+  - family: gaming-interactive
+    name: Neon Arena
+    best_for: [Gaming UI, Esports UI]
+    tokens: {bg: "#0A0D14", surface: "#131826", ink: "#F2F5FF", muted: "#7E8AA3", accent: "#22D3EE", accent2: "#A3E635", border: "#232C44"}
+  - family: gaming-interactive
+    name: RPG Parchment
+    best_for: [RPG UI, Fantasy UI]
+    tokens: {bg: "#F1E8D2", surface: "#E4D5B5", ink: "#2B2118", muted: "#7A6A54", accent: "#8C2F2F", accent2: "#2F5D50", border: "#4A3A28"}
+  - family: gaming-interactive
+    name: CRT Arcade
+    best_for: [Arcade UI, Sci-Fi Gaming]
+    tokens: {bg: "#080A10", surface: "#10141D", ink: "#D8F3DC", muted: "#5C7A64", accent: "#FF2E88", accent2: "#00E5FF", border: "#232B38"}

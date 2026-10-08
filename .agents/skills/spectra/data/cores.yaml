@@ -1,0 +1,257 @@
+# Spectra cores — machine-readable mirror of references/catalog.md
+# One CORE per project. Modifiers are composable (0-3).
+version: 1
+families:
+  - id: minimal-modern
+    name: Minimal & Modern
+    file: families/01-minimal-modern.md
+    cores:
+      - name: Minimalism
+        modifiers: [Monochrome, Warm, Cool, Editorial, Soft, High-Contrast, Luxury]
+      - name: Swiss / International
+        modifiers: ["Red Accent", Monochrome, Grid-Heavy, Typographic, Experimental]
+      - name: Modernist
+        modifiers: [Geometric, Monochrome, Bold Typography, Architectural]
+      - name: Bauhaus
+        modifiers: [Primary Colors, Geometric, Experimental Grid, Industrial]
+      - name: Functionalism
+        modifiers: [Utility, Dense, Technical, Monochrome, Data-Driven]
+      - name: Flat Design
+        modifiers: [Colorful, Corporate, Playful, Minimal, Illustrative]
+      - name: Flat 2.0
+        modifiers: [Soft Shadows, Gradient, Depth, Glass, Colorful]
+      - name: Monochrome
+        modifiers: [Black & White, Warm Gray, Cool Gray, Single Accent, High Contrast]
+
+  - id: editorial-typography
+    name: Editorial & Typography
+    file: families/02-editorial-typography.md
+    cores:
+      - name: Editorial
+        modifiers: [Fashion, Luxury, Modern, Experimental, Minimal]
+      - name: Magazine
+        modifiers: [Dense Grid, Image-Heavy, Bold Headlines, Collage]
+      - name: Newspaper
+        modifiers: [Classic, Modern, Monochrome, Breaking-News, Dense]
+      - name: Fashion Editorial
+        modifiers: [Luxury, Photography, Serif, High Contrast, Art Direction]
+      - name: Typography-First
+        modifiers: [Oversized Type, Kinetic, Experimental, Monospace, Serif]
+      - name: Poster / Swiss Poster
+        modifiers: [Bold Type, Geometric, Color Blocking, Minimal]
+      - name: Art Direction
+        modifiers: [Experimental, Cinematic, Photography, Collage]
+
+  - id: tactile-physical
+    name: Tactile & Physical
+    file: families/03-tactile-physical.md
+    cores:
+      - name: Skeuomorphism
+        modifiers: [Leather, Paper, Metal, Wood, Glass, Fabric]
+      - name: Neumorphism
+        modifiers: [Soft, Dark, Light, Monochrome, Colored]
+      - name: Claymorphism
+        modifiers: [Pastel, Playful, 3D, Soft, Candy]
+      - name: Soft UI
+        modifiers: [Pastel, Minimal, Dark, Rounded, Organic]
+      - name: Material Design
+        modifiers: [Google-inspired, Expressive, Dense, Colorful, Minimal]
+      - name: Paper UI
+        modifiers: [Notebook, Newspaper, Craft, Academic, Handmade]
+      - name: Industrial UI
+        modifiers: [Metal, Machinery, Technical, Blueprint, Utilitarian]
+
+  - id: glass-translucent
+    name: Glass & Translucent
+    file: families/04-glass-translucent.md
+    cores:
+      - name: Glassmorphism
+        modifiers: [Frosted, Dark Glass, Colorful, Aurora, Crystal]
+      - name: Liquid Glass
+        modifiers: [Fluid, Clear, Iridescent, Dark, Metallic]
+      - name: Spatial UI
+        modifiers: [Floating, Immersive, Minimal, Glass, 3D]
+    shared_modifiers: [Crystal, Translucent, Holographic, Frosted, Aurora]
+
+  - id: experimental-raw
+    name: Experimental & Raw
+    file: families/05-experimental-raw.md
+    cores:
+      - name: Brutalism
+        modifiers: [Raw, Industrial, Monochrome, Colorful, Newspaper]
+      - name: Neo-Brutalism
+        modifiers: [Pastel, Acid, Corporate, Playful, 3D]
+      - name: Anti-Design
+        modifiers: [Distorted, Chaotic, Glitch, Asymmetric, Ugly]
+      - name: Maximalism
+        modifiers: [Colorful, Patterned, Collage, Typography, 3D]
+      - name: Deconstructed
+        modifiers: [Broken Grid, Overlap, Typography, Asymmetric]
+      - name: Organic Brutalism
+        modifiers: [Natural, Earthy, Soft, Hand-Drawn]
+      - name: Chaotic UI
+        modifiers: [Glitch, Distortion, Randomized, Experimental]
+
+  - id: retro-nostalgic
+    name: Retro & Nostalgic
+    file: families/06-retro-nostalgic.md
+    cores:
+      - name: Y2K
+        modifiers: [Chrome, Bubble, Cyber, Pink, Tech]
+      - name: Web 1.0
+        modifiers: [Geocities, Pixel, HTML, Windows, Personal]
+      - name: Web 2.0
+        modifiers: [Glossy, Gradient, Rounded, Reflections, Corporate]
+      - name: Frutiger Aero
+        modifiers: [Nature, Water, Sky, Glossy, 3D]
+      - name: Vaporwave
+        modifiers: [Neon, Sunset, Grid, Chrome, Glitch]
+      - name: Retro Futurism
+        modifiers: [Space Age, Chrome, Atomic, Mid-Century]
+      - name: Pixel Art
+        modifiers: [8-Bit, Arcade, RPG, Gameboy, Terminal]
+      - name: Arcade
+        modifiers: [Neon, CRT, Pixel, Gaming, Retro]
+      - name: Windows Classic
+        modifiers: ["95", "98", XP, Desktop, Utility]
+      - name: Macintosh Classic
+        modifiers: [Mac OS, Pixel, Monochrome, Desktop]
+
+  - id: futuristic-tech
+    name: Futuristic & Technology
+    file: families/07-futuristic-tech.md
+    cores:
+      - name: Cyberpunk
+        modifiers: [Neon, Glitch, Chrome, Holographic, Dark]
+      - name: Sci-Fi
+        modifiers: [HUD, Space, Military, Medical, Industrial]
+      - name: HUD
+        modifiers: [Tactical, Space, Automotive, Gaming, Medical]
+      - name: Terminal / CLI
+        modifiers: [Hacker, Green Screen, Amber, Monospace, CRT]
+      - name: Cyber Minimalism
+        modifiers: [Dark, Grid, Neon Accent, Monochrome]
+      - name: AI Futurism
+        modifiers: [Glass, Aurora, Neural, Holographic, Soft]
+      - name: Industrial Future
+        modifiers: [Metal, Technical, Blueprint, Dark, Data]
+      - name: Digital Grid
+        modifiers: [Neon, Monochrome, Data, Cyber, Technical]
+
+  - id: playful-expressive
+    name: Playful & Expressive
+    file: families/08-playful-expressive.md
+    cores:
+      - name: Memphis
+        modifiers: [Pastel, Neon, Geometric, 80s, Minimal]
+      - name: Pop Art
+        modifiers: [Comic, Halftone, Primary Colors, Vintage]
+      - name: Hand-Drawn
+        modifiers: [Sketch, Marker, Pencil, Doodle, Notebook]
+      - name: Comic UI
+        modifiers: [Speech Bubbles, Halftone, Manga, Pop Art]
+      - name: Sticker UI
+        modifiers: [Cute, 3D, Y2K, Colorful, Hand-Drawn]
+      - name: Collage
+        modifiers: [Magazine, Photography, Handmade, Experimental]
+      - name: Doodle
+        modifiers: [Educational, Playful, Notebook, Kids]
+      - name: Psychedelic
+        modifiers: [Liquid, Rainbow, Organic, Retro]
+
+  - id: organic-natural
+    name: Organic & Natural
+    file: families/09-organic-natural.md
+    cores:
+      - name: Organic UI
+        modifiers: [Soft, Botanical, Earthy, Fluid]
+      - name: Biophilic
+        modifiers: [Plants, Natural Materials, Green, Light]
+      - name: Earthy Minimalism
+        modifiers: [Beige, Brown, Clay, Warm, Organic]
+      - name: Wabi-Sabi
+        modifiers: [Imperfect, Japanese, Natural, Handmade]
+      - name: Botanical
+        modifiers: [Floral, Vintage, Natural, Editorial]
+      - name: Natural Materials
+        modifiers: [Wood, Stone, Paper, Linen]
+      - name: Organic Modernism
+        modifiers: [Minimal, Curved, Earthy, Architectural]
+
+  - id: luxury-premium
+    name: Luxury & Premium
+    file: families/10-luxury-premium.md
+    cores:
+      - name: Dark Luxury
+        modifiers: [Gold, Chrome, Black, Velvet, Marble]
+      - name: Luxury Minimalism
+        modifiers: [Serif, Monochrome, Editorial, White Space]
+      - name: High Fashion
+        modifiers: [Editorial, Photography, Typography, Experimental]
+      - name: Art Deco
+        modifiers: [Gold, Geometric, Black, Jewelry, Vintage]
+      - name: Neo-Classical
+        modifiers: [Marble, Serif, Architecture, Gold]
+      - name: Elegant Editorial
+        modifiers: [Serif, Photography, Monochrome, High Contrast]
+      - name: Premium Monochrome
+        modifiers: [Black, White, Silver, Typography]
+
+  - id: industrial-technical
+    name: Industrial & Technical
+    file: families/11-industrial-technical.md
+    cores:
+      - name: Industrial
+        modifiers: [Metal, Blueprint, Warning Labels, Machinery]
+      - name: Technical
+        modifiers: [Grid, Monospace, Data, Diagrams]
+      - name: Engineering
+        modifiers: [Blueprint, CAD, Measurement, Industrial]
+      - name: Utility UI
+        modifiers: [Dense, Monochrome, Functional, Data]
+      - name: Control Panel
+        modifiers: [Buttons, Indicators, Gauges, Technical]
+      - name: Scientific
+        modifiers: [Laboratory, Data, Grid, Medical]
+      - name: Blueprint
+        modifiers: [Technical Drawing, Architecture, Grid, Measurement]
+      - name: Data-Dense
+        modifiers: [Tables, Charts, Monospace, Compact]
+
+  - id: cultural-historical
+    name: Cultural & Historical
+    file: families/12-cultural-historical.md
+    cores:
+      - name: Art Nouveau
+        modifiers: [Botanical, Decorative, Vintage, Organic]
+      - name: Art Deco
+        modifiers: [Luxury, Geometric, Gold, Black]
+      - name: Bauhaus
+        modifiers: [Geometric, Primary Colors, Functional]
+      - name: Constructivism
+        modifiers: [Red, Black, Typography, Geometry]
+      - name: Mid-Century Modern
+        modifiers: [Warm, Furniture, Geometric, Retro]
+      - name: Japanese Minimalism
+        modifiers: [Zen, Natural, Paper, Monochrome]
+      - name: Ukiyo-e Inspired
+        modifiers: [Woodblock, Japanese, Vintage, Illustration]
+      - name: Postmodernism
+        modifiers: [Memphis, Colorful, Asymmetric, Experimental]
+
+  - id: gaming-interactive
+    name: Gaming & Interactive
+    file: families/13-gaming-interactive.md
+    cores:
+      - name: Gaming UI
+        modifiers: [RGB, Dark, Neon, HUD]
+      - name: RPG UI
+        modifiers: [Fantasy, Medieval, Magical, Inventory]
+      - name: Sci-Fi Gaming
+        modifiers: [HUD, Holographic, Cyberpunk]
+      - name: Arcade UI
+        modifiers: [Pixel, CRT, Neon, Retro]
+      - name: Fantasy UI
+        modifiers: [Medieval, Magical, Gothic, Illustrated]
+      - name: Esports UI
+        modifiers: [Aggressive, Neon, Dark, Dynamic]

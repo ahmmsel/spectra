@@ -1,0 +1,19 @@
+# Vendored third-party dev skill (pinned via skills-lock.json — reinstall with your skill manager)
+# (no trailing slash: .claude side is a symlink, which dir-only patterns don't match)
+.claude/skills/skill-creator
+.agents/skills/skill-creator
+
+# SPECTRA.md generated inside this repo itself (e.g. from dogfooding /spectra init here)
+SPECTRA.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Eval / packaging scratch output
+*-workspace/
+*.skill
